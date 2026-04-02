@@ -1,0 +1,25 @@
+name: "Nom du Challenge Dynamique"
+author: "Pseudo"
+category: "catégorie"
+description: |-
+    Insérez ici votre texte d'ambiance lié à Orion Industries.
+    
+    Cliquez sur le bouton Start pour démarrer votre instance isolée.
+value: 300
+type: container
+connection_info: "ctfd.hacktheshields.fr"
+
+extra:
+    initial: 300 (exemple)
+    decay: 7
+    minimum: 100 (exemple)
+    function: "linear"
+    port: 80
+
+flags:
+    - type: "static"
+      content: "HTS{exemple_de_flag}"
+      data: "case_(in)sensitive"
+
+state: visible
+version: "0.1"

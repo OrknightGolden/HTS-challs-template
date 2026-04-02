@@ -1,0 +1,21 @@
+# Exemple pour une application Python
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Installation des dépendances si nécessaire
+# COPY requirements.txt .
+# RUN pip install -r requirements.txt
+
+# Copie du code source
+COPY src/ .
+
+# Sécurité : création d'un utilisateur non-privilégié
+RUN useradd -m ctf
+USER ctf
+
+# Port interne correspondant au challenge.yml
+EXPOSE 80
+
+# Commande de lancement
+CMD ["python", "app.py"]

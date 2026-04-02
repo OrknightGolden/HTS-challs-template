@@ -1,0 +1,27 @@
+name: "Nom du Challenge"
+author: "Pseudo"
+category: "Catégorie"
+description: |-
+    Insérez ici votre texte d'ambiance.
+    Expliquez clairement ce que le joueur doit trouver.
+    
+    Format du flag : HTS{...}
+value: 500 (exemple)
+type: dynamic
+state: visible
+version: "0.1"
+
+extra:
+    initial: 500 (exemple)
+    decay: 7
+    minimum: 300 (exemple)
+    function: "linear"
+
+flags:
+    - type: "static"
+      content: "HTS{exemple_de_flag}"
+      data: "case_(in)sensitive"
+
+files:
+    - files/fichier.extension
+    - fichier
