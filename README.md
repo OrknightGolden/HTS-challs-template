@@ -1,4 +1,3 @@
-```markdown
 # Hack The Shields - Guide des Contributeurs
 
 Bienvenue dans le dépôt public d'Orion Industries. Ce guide définit les standards techniques requis pour que vos challenges soient validés et intégrés à notre infrastructure automatisée.
