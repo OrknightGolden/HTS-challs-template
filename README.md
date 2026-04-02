@@ -81,4 +81,4 @@ Pour les challenges conteneurisés, respectez les protocoles de sécurité suiva
 * [cite_start]**Utilisateur** : N'utilisez jamais l'utilisateur root pour faire tourner votre application[cite: 6, 19]. [cite_start]Vous devez créer et utiliser un utilisateur `ctf`[cite: 4, 19].
 * [cite_start]**Réseau** : Exposez un seul port de communication[cite: 4, 19].
 * **Ressources** : Limitez les ressources CPU et mémoire dans la mesure du possible pour garantir la stabilité de l'infrastructure.
-```
+
