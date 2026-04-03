@@ -6,7 +6,7 @@ Pour des raisons de sécurité et pour garantir l'anonymat des soumissions (ains
 
 ## 1. Comment proposer un challenge ?
 
-1. **Téléchargez les modèles** : Clonez ce dépôt ou téléchargez-le en ZIP. Vous y trouverez deux dossiers de base (`template_standard` et `template_container`).
+1. **Téléchargez les modèles** : Clonez ce dépôt ou téléchargez-le en ZIP. Vous y trouverez l'arborescence des dossiers ainsi que deux fichiers de base (`template_standard` et `template_container`).
 2. **Créez votre challenge** : Copiez le modèle qui correspond à votre besoin, renommez le dossier (sans espaces) et construisez votre épreuve à l'intérieur.
 3. **Configurez le YAML** : Remplissez scrupuleusement le fichier `challenge.yml` en respectant nos barèmes (voir ci-dessous).
 4. **Zippez votre dossier** : Compressez le dossier complet de votre challenge au format `.zip`.
@@ -14,10 +14,10 @@ Pour des raisons de sécurité et pour garantir l'anonymat des soumissions (ains
 
 ## 2. Choix du Modèle
 
-### Modèle Standard (Fichiers statiques)
+### Modèle Standard `template_standard` (Fichiers statiques)
 Utilisé pour l'OSINT, le Forensic, la Stéganographie ou la Cryptographie nécessitant uniquement le téléchargement de fichiers par les joueurs.
 
-### Modèle Conteneurisé (Docker)
+### Modèle Conteneurisé `template_container`(Docker)
 Utilisé pour les épreuves nécessitant une instance dynamique (Web, Pwn, Programmation). 
 **Règles strictes pour Docker :**
 * N'utilisez jamais l'utilisateur root pour faire tourner votre application. Créez un utilisateur `ctf`.
@@ -34,7 +34,7 @@ Nous utilisons un système de score dynamique. Les valeurs suivantes doivent êt
 | **Intermédiaire** | 300 | 100 | 7 |
 | **Difficile** | 500 | 300 | 7 |
 
-## 4. Catégories Autorisées
+## 4. Catégories actuellement implémenté
 
 * Web
 * Cryptographie
