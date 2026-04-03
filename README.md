@@ -10,7 +10,7 @@ Pour des raisons de sécurité et pour garantir l'anonymat des soumissions (ains
 2. **Créez votre challenge** : Copiez le modèle qui correspond à votre besoin, renommez le dossier (sans espaces) et construisez votre épreuve à l'intérieur.
 3. **Configurez le YAML** : Remplissez scrupuleusement le fichier `challenge.yml` en respectant nos barèmes (voir ci-dessous). *Attention, l'abscence de challenge.yml entraîne automatiquement une non-éligibilité de la création de vos challenges*
 4. **Zippez votre dossier** : Compressez le dossier complet de votre challenge au format `.zip`.
-5. **Soumettez votre création** : Envoyez votre archive via notre portail sécurisé : [LIEN_VERS_VOTRE_GOOGLE_FORM]
+5. **Soumettez votre création** : Envoyez votre archive via notre portail sécurisé : https://docs.google.com/forms/d/e/1FAIpQLSf51_69LEMU4DgOyu0aZQ35VOxQoTxaXIIZ1xRhcbnhMZNNTQ/viewform?usp=header
 
 ## 2. Choix du Modèle
 
