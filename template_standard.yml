@@ -3,7 +3,6 @@ author: "Pseudo"
 category: "Catégorie"
 description: |-
     Insérez ici votre texte d'ambiance.
-    Expliquez clairement ce que le joueur doit trouver.
     
     Format du flag : HTS{...}
 value: 500 (exemple)
