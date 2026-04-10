@@ -24,3 +24,6 @@ flags:
 files:
     - files/fichier.extension
     - fichier
+requirements:
+    - "Règlement"
+    - "exemple_pas_obligatoire"
