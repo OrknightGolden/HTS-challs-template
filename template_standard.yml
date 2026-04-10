@@ -25,5 +25,5 @@ files:
     - files/fichier.extension
     - fichier
 requirements:
-    - "Règlement"
+    - "Règlement" # Obligatoire
     - "exemple_pas_obligatoire"
