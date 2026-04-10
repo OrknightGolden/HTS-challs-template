@@ -23,3 +23,5 @@ flags:
 
 state: visible
 version: "0.1"
+requirements:
+    - "Règlement"
