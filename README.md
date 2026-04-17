@@ -7,7 +7,7 @@ Pour des raisons de sécurité et pour garantir l'anonymat des soumissions (ains
 ## 1. Comment proposer un challenge ?
 
 1. **Téléchargez les modèles** : Clonez ce dépôt ou téléchargez-le en ZIP. Vous y trouverez deux fichiers de base (`template_standard` et `template_container`).
-2. **Créez votre challenge** : Copiez le modèle qui correspond à votre besoin, renommez le dossier _challenge_ et construisez votre épreuve à l'intérieur.
+2. **Créez votre challenge** : Copiez le modèle qui correspond à votre besoin, renommez le dossier `challenge` et construisez votre épreuve à l'intérieur.
 3. **Configurez le YAML** : Remplissez scrupuleusement le fichier `challenge.yml` en respectant nos barèmes (voir ci-dessous). *Attention, l'abscence de challenge.yml entraîne automatiquement une non-éligibilité de la création de vos challenges*
 4. **Zippez votre dossier** : Compressez le dossier complet de votre challenge au format `.zip`.
 5. **Soumettez votre création** : Envoyez votre archive via notre portail sécurisé : https://docs.google.com/forms/d/e/1FAIpQLSf51_69LEMU4DgOyu0aZQ35VOxQoTxaXIIZ1xRhcbnhMZNNTQ/viewform?usp=header
